@@ -7,7 +7,7 @@ import About from "@/sections/Aboutus";
 import Testi from "@/sections/testimonials";
 import Prodpro from "@/components/Prodpro";
 import Team from "@/sections/Team";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
