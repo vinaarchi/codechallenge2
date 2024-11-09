@@ -9,7 +9,7 @@ const Footer = () => {
 
           <ul className="flex flex-col items-start space-y-2 mt-4 ml-10 md:ml-20">
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./AboutUs" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>

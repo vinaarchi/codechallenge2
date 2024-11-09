@@ -32,9 +32,11 @@ const About = () => (
           desain inovatif, dan komitmen terhadap kualitas
         </h1>
         <div className="pt-1 font-helvetica hidden md:block">
-          <Button className="bg-customBlueSky text-customDarkBlue">
-            Read More
-          </Button>
+          <a href="./AboutUs">
+            <Button className="bg-customBlueSky text-customDarkBlue">
+              Read More
+            </Button>
+          </a>
         </div>
       </div>
     </div>
