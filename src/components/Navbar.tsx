@@ -34,27 +34,27 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row items-center space-x-8 font-rafeny text-black">
           <ul className="flex items-center space-x-8">
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Products
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Programs
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Contact
               </a>
             </li>
@@ -73,29 +73,29 @@ const Navbar = () => {
               <IoMdCloseCircle />
             </button>
           </div>
-          <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-helvetica text-black">
+          <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-rafeny text-black">
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Products
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Programs
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-customDarkBlue">
                 Contact
               </a>
             </li>

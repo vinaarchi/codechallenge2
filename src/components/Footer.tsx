@@ -9,13 +9,19 @@ const Footer = () => {
 
           <ul className="flex flex-col items-start space-y-2 mt-4 ml-10 md:ml-20">
             <li>
-              <a href="#">About</a>
+              <a href="#" className="hover:text-customDarkBlue">
+                About
+              </a>
             </li>
             <li>
-              <a href="#">Product</a>
+              <a href="#" className="hover:text-customDarkBlue">
+                Product
+              </a>
             </li>
             <li>
-              <a href="#">Program</a>
+              <a href="#" className="hover:text-customDarkBlue">
+                Program
+              </a>
             </li>
           </ul>
         </div>
@@ -24,13 +30,19 @@ const Footer = () => {
       <div className="flex flex-col p-4 w-1/3 justify-center ml-24 md:ml-44">
         <ul className="flex flex-col items-start space-y-2 mt-4">
           <li>
-            <a href="#">Team</a>
+            <a href="#" className="hover:text-customDarkBlue">
+              Team
+            </a>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <a href="#" className="hover:text-customDarkBlue">
+              Testimonials
+            </a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <a href="#" className="hover:text-customDarkBlue">
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>
@@ -38,7 +50,7 @@ const Footer = () => {
       {/* Kolom 3: Quote */}
       <div className="flex flex-col justify-center items-center p-4 w-1/2">
         <p className="font-rafeny text-center hidden md:block">
-        &quot;We don&quot;t keep our beauty secrets&quot;
+          &quot;We don&quot;t keep our beauty secrets&quot;
         </p>
       </div>
     </div>

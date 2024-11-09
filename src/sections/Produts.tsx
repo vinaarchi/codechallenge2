@@ -3,19 +3,25 @@
 import React from "react"
 
 const products = [
-    { id: 1, name: 'MPON-001', price: '65.000', image: 'WB-5E'},
-    { id: 2, name: 'MPON-002', price: '75.000', image: 'WB-1E'},
-    { id: 2, name: 'MPON-002', price: '75.000', image: 'WB-1E'},
-    { id: 2, name: 'MPON-002', price: '75.000', image: 'WB-1E'},
+    { id: 1, name: 'MPON-001', price: '65.000', image: '/images/WB-1E.webp'},
+    { id: 2, name: 'MPON-002', price: '75.000', image: '/images/WB-5E.webp'},
+    { id: 3, name: 'MPON-002', price: '85.000', image: '/images/WB-13E.webp'},
+    { id: 4, name: 'MPON-001', price: '65.000', image: '/images/WB-1E.webp'},
+    
 ]
 const Products: React.FC = () => {
     return (
         <div className="flex flex-row items-center overflow-x-auto">
             {products.map(product => (
-            <div key={product.id} className="m-4 text-center" >
-                <img src={product.image} className="w-32 h-32"/>
-                <h3 className="text-lg font-semibold">{product.name}</h3>
-                <p className="text-gray-600">{product.price}</p>
+            <div key={product.id} className="m-1 text-center w-60" >
+                <div className="w-64 h-64 overflow-hidden m-1">
+                        <img 
+                            src={product.image}  
+                            className="w-full h-full p-2 object-cover"
+                        />
+                    </div>
+                <h3 className="text-lg font-semibold text-center text-customDarkBlue">{product.name}</h3>
+                <p className="text-black">{product.price}</p>
             </div>
 
             ))}
