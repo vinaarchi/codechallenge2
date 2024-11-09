@@ -38,7 +38,7 @@ const Footer = () => {
       {/* Kolom 3: Quote */}
       <div className="flex flex-col justify-center items-center p-4 w-1/2">
         <p className="font-rafeny text-center hidden md:block">
-          "We don’t keep our beauty secrets"
+        &quot;We don&quot;t keep our beauty secrets&quot;
         </p>
       </div>
     </div>
