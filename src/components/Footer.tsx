@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-customDarkBlue">
+            <a href="./Testimonial" className="hover:text-customDarkBlue">
               Testimonials
             </a>
           </li>

@@ -54,8 +54,13 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a href="./Testimonial" className="hover:text-customDarkBlue">
+                Testimonial
+              </a>
+            </li>
+            <li>
               <a href="#" className="hover:text-customDarkBlue">
-                Contact
+                Contact Us
               </a>
             </li>
           </ul>
@@ -92,6 +97,11 @@ const Navbar = () => {
             <li>
               <a href="#" className="hover:text-customDarkBlue">
                 Programs
+              </a>
+            </li>
+            <li>
+              <a href="./Testimonial" className="hover:text-customDarkBlue">
+                Testimonial
               </a>
             </li>
             <li>

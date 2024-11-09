@@ -13,9 +13,11 @@ const About = () => (
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white md:hidden">
         <h3 className="font-rafeny text-4xl font-bold">About Us</h3>
         <div className="pt-5">
-          <Button className="bg-customBlueSky text-customDarkBlue">
-            Read More
-          </Button>
+          <a href="./AboutUs">
+            <Button className="bg-customBlueSky text-customDarkBlue">
+              Read More
+            </Button>
+          </a>
         </div>
       </div>
     </div>
