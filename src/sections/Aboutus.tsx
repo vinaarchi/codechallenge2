@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { TbBackground } from "react-icons/tb";
 
 const About = () => (
   <div className="flex flex-col md:flex-row items-center justify-center p-5 mt-10 mb-10">
@@ -14,7 +13,9 @@ const About = () => (
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white md:hidden">
         <h3 className="font-rafeny text-4xl font-bold">About Us</h3>
         <div className="pt-5">
-          <Button className="bg-customBlueSky text-customDarkBlue">Read More</Button>
+          <Button className="bg-customBlueSky text-customDarkBlue">
+            Read More
+          </Button>
         </div>
       </div>
     </div>
@@ -31,7 +32,9 @@ const About = () => (
           desain inovatif, dan komitmen terhadap kualitas
         </h1>
         <div className="pt-1 font-helvetica hidden md:block">
-          <Button className="bg-customBlueSky text-customDarkBlue">Read More</Button>
+          <Button className="bg-customBlueSky text-customDarkBlue">
+            Read More
+          </Button>
         </div>
       </div>
     </div>
