@@ -1,16 +1,79 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdCloseCircle } from "react-icons/io";
 
 const Navbar = () => {
+  //buat state toggle menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  //buat fungsi toggle menu nya
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  // ini buat fungsi toggle x nya buat close
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <nav className="bg-white fixed w-full z-10">
-      <div className="flex justify-evenly items-center max-w-screen-xl mx-auto">
+    <nav className="shadow-md z-10 relative w-full py-3">
+      <div className="flex justify-evenly items-center space-x-60">
         <div className="flex items-center">
-          <img src="/logo.png" className="position: relative h-20 mr-8" />
+          <img src="/logo.png" className="relative h-14 md:h-20 w-14 md:w-14" />
         </div>
-        <div>
-          <ul className="flex space-x-20 font-helvetica text-black">
+
+        {/* icon ini bakalan muncul hanya di layar kecil */}
+        <div className="md:hidden flex items-center">
+          <button onClick={toggleMenu}>
+            <GiHamburgerMenu className="text-lg" />
+          </button>
+        </div>
+
+        {/* ini buat dia muncul terus bagian Home dll nya */}
+        <div className="hidden md:flex flex-row items-center space-x-8 font-rafeny text-black">
+          <ul className="flex items-center space-x-8">
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Programs
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-500">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* ini buat menu navigasinya */}
+        <div
+          className={`${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          } fixed top-0 right-0 w-3/4 h-full bg-white shadow-lg md:hidden transition-transform duration-300 ease-in-out`}
+        >
+          {/* ini buat tombol Closenya */}
+          <div className="flex justify-end p-4">
+            <button onClick={closeMenu}>
+              <IoMdCloseCircle />
+            </button>
+          </div>
+          <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-helvetica text-black">
             <li>
               <a href="#" className="hover:text-blue-500">
                 Home

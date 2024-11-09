@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Button } from "@/components/ui/button"
 
 interface Service {
   name: string;
@@ -22,20 +23,18 @@ const Services: React.FC = () => {
           week, not just day
         </h4>
       </div>
-      <div className="font-helvetica max-w-2xl mx-auto p-2">
+      <div className="font-helvetica max-w-2xl mx-auto p-2 ">
         <div className="space-y-4 mt-6">
           {services.map((service, index) => (
-            <div key={index} className="flex justify-between border-b pb-2 space-x-11">
-              <span>{service.name}</span>
-              <span>{service.price}</span>
+            <div key={index} className="flex justify-between border-b pb-2 space-x-36 md:space-x-96">
+              <span className="font-helvetica">{service.name}</span>
+              <span className="font-rafeny font-bold">{service.price}</span>
             </div>
           ))}
         </div>
       </div>
-      <div className="border border-black rounded p-3">
-        <a href="#">
-          Book Appointment
-          </a>
+      <div className="mt-10">
+        <Button className="bg-blue-400 font-rafeny text-2xl">Book Appointment</Button>
       </div>
     </div>
   );

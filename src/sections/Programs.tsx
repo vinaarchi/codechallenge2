@@ -4,11 +4,13 @@ import React from "react"
 
 const programs = [
     {id: 1, name: 'Menicure Class', price: '699.000', image: 'HD-12E_1'},
-    {id: 2, name: '3D Design', price: '899.000', image: 'HD-8E_2'}
+    {id: 2, name: '3D Design', price: '899.000', image: 'HD-8E_2'},
+    {id: 2, name: '3D Design', price: '899.000', image: 'HD-8E_2'},
+    {id: 2, name: '3D Design', price: '899.000', image: 'HD-8E_2'},
 ]
 const Programs:React.FC = () => {
     return (
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center overflow-x-auto">
             {/* stiap program yang ada, akan dibuatkan elemen div */}
             {programs.map(program => (
                 <div key={program.id} className="m-4 text-center">
