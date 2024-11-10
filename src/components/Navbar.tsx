@@ -59,7 +59,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./ContactUs" className="hover:text-customDarkBlue">
                 Contact Us
               </a>
             </li>
@@ -105,7 +105,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./ContactUs" className="hover:text-customDarkBlue">
                 Contact
               </a>
             </li>
