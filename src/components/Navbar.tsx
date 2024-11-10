@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row items-center space-x-8 font-rafeny text-black">
           <ul className="flex items-center space-x-8">
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="/" className="hover:text-customDarkBlue">
                 Home
               </a>
             </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./OurTeam" className="hover:text-customDarkBlue">
                 Our Team
               </a>
             </li>
@@ -80,12 +80,12 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-rafeny text-black">
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="/" className="hover:text-customDarkBlue">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./AboutUs" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./OurTeam" className="hover:text-customDarkBlue">
                 Our Team
               </a>
             </li>

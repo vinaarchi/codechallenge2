@@ -9,17 +9,17 @@ const Footer = () => {
 
           <ul className="flex flex-col items-start space-y-2 mt-4 ml-8 md:ml-20">
             <li>
-              <a href="./AboutUs" className="hover:text-customDarkBlue">
+              <a href="/" className="hover:text-customDarkBlue">
                 Home
               </a>
             </li>
             <li>
-              <a href="./Products" className="hover:text-customDarkBlue">
+              <a href="./AboutUs" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
+              <a href="./Products" className="hover:text-customDarkBlue">
                 Product & Program
               </a>
             </li>
@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="flex flex-col p-4 w-1/3 justify-center ml-24 md:ml-44">
         <ul className="flex flex-col items-start space-y-2 mt-4">
           <li>
-            <a href="#" className="hover:text-customDarkBlue">
+            <a href="./OurTeam" className="hover:text-customDarkBlue">
               Team
             </a>
           </li>
