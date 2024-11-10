@@ -3,11 +3,19 @@
 import React from "react"
 
 const products = [
-    { id: 1, name: 'MPON-001', price: '65.000', image: '/images/WB-1E.webp'},
-    { id: 2, name: 'MPON-002', price: '75.000', image: '/images/WB-5E.webp'},
-    { id: 3, name: 'MPON-002', price: '85.000', image: '/images/WB-13E.webp'},
-    { id: 4, name: 'MPON-001', price: '65.000', image: '/images/WB-1E.webp'},
-    
+    { id: 1, name: "MPON-001", price: "65.000", image: "/images/WB-1E.webp" },
+    { id: 2, name: "MPON-002", price: "75.000", image: "/images/WB-5E.webp" },
+    { id: 3, name: "MPON-003", price: "85.000", image: "/images/WB-13E.webp" },
+    { id: 4, name: "MPON-004", price: "85.000", image: "/images/NB-12E.webp" },
+    { id: 5, name: "MPON-005", price: "75.000", image: "/images/NB-13E.webp" },
+    { id: 6, name: "MPON-006", price: "65.000", image: "/images/NB-24E.webp" },
+    {
+      id: 7,
+      name: "MPON-007",
+      price: "65.000",
+      image: "/images/NB-21E_1.webp",
+    },
+    { id: 8, name: "MPON-008", price: "65.000", image: "/images/NB-23E.webp" },
 ]
 const Products: React.FC = () => {
     return (

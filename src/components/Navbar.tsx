@@ -44,18 +44,18 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
-                Products
+              <a href="./Products" className="hover:text-customDarkBlue">
+                Products & Programs
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-customDarkBlue">
-                Programs
+              Testimonial
               </a>
             </li>
             <li>
               <a href="./Testimonial" className="hover:text-customDarkBlue">
-                Testimonial
+               Our Team
               </a>
             </li>
             <li>
@@ -90,18 +90,18 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-customDarkBlue">
-                Products
+              <a href="./Products" className="hover:text-customDarkBlue">
+                Products & Programs
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-customDarkBlue">
-                Programs
+              Testimonial
               </a>
             </li>
             <li>
               <a href="./Testimonial" className="hover:text-customDarkBlue">
-                Testimonial
+                Our Team
               </a>
             </li>
             <li>

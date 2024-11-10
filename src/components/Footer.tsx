@@ -7,20 +7,20 @@ const Footer = () => {
         <div className="flex flex-row p-5 justify-start items-center">
           <img src="/logo.png" className="w-28 h-auto hidden md:block" />
 
-          <ul className="flex flex-col items-start space-y-2 mt-4 ml-10 md:ml-20">
+          <ul className="flex flex-col items-start space-y-2 mt-4 ml-8 md:ml-20">
             <li>
               <a href="./AboutUs" className="hover:text-customDarkBlue">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="./Products" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-customDarkBlue">
-                Product
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-customDarkBlue">
-                Program
+                Product & Program
               </a>
             </li>
           </ul>

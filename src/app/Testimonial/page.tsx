@@ -27,7 +27,7 @@ const Testi = () => {
         <h2 className="text-center pt-8 font-rafeny text-customPink text-3xl">
           Testimoni Pelanggan - Order via WhatsApp
         </h2>
-        <Carousel className="pt-5">
+        <Carousel className="p-5">
           <CarouselContent className="flex gap-0">
             <CarouselItem className="flex-none">
               <img src="/images/testi/3.webp" className="w-36 " />
@@ -51,10 +51,10 @@ const Testi = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <h2 className="text-center pt-8 font-rafeny text-customPink text-3xl">
+        <h2 className="text-center pt-8 font-rafeny text-customDarkBlue text-3xl">
           Testimoni Pelanggan - Order via Shoppe
         </h2>
-        <Carousel className="pt-5 pb-8">
+        <Carousel className="p-5 pb-8">
           <CarouselContent className="flex gap-0">
             <CarouselItem className="flex-none">
               <img src="/images/testi/1.webp" className="w-36 " />
