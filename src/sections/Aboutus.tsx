@@ -14,7 +14,7 @@ const About = () => (
         <h3 className="font-rafeny text-4xl font-bold">About Us</h3>
         <div className="pt-5">
           <a href="./AboutUs">
-            <Button className="bg-customBlueSky text-customDarkBlue">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
               Read More
             </Button>
           </a>
@@ -35,7 +35,7 @@ const About = () => (
         </h1>
         <div className="pt-1 font-helvetica hidden md:block">
           <a href="./AboutUs">
-            <Button className="bg-customBlueSky text-customDarkBlue">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
               Read More
             </Button>
           </a>

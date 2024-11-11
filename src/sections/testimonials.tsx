@@ -18,7 +18,7 @@ const Testi = () => {
           </h2>
           <div className="pt-5">
             <a href="./Testimonial">
-              <Button className="bg-customBlueSky text-customDarkBlue">
+              <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
                 See More
               </Button>
             </a>
@@ -46,7 +46,7 @@ const Testi = () => {
 
           <div className="pt-5">
             <a href="./Testimonial">
-              <Button className="bg-customBlueSky text-customDarkBlue">
+              <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
                 See More
               </Button>
             </a>

@@ -50,7 +50,7 @@ const Services: React.FC = () => {
       </div>
       <div className="mt-5">
         <Button
-          className="bg-customBlueSky text-customDarkBlue"
+          className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125"
           onClick={handleClick}
         >
           Book Appointment
