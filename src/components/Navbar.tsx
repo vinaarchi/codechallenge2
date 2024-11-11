@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdCloseCircle } from "react-icons/io";
+import Link from "next/link";
 
 const Navbar = () => {
   //buat state toggle menu
@@ -34,9 +35,9 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row items-center space-x-8 font-rafeny text-black">
           <ul className="flex items-center space-x-8">
             <li>
-              <a href="/" className="hover:text-customDarkBlue">
+              <Link href="/" className="hover:text-customDarkBlue">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <a href="./AboutUs" className="hover:text-customDarkBlue">
@@ -80,9 +81,9 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-rafeny text-black">
             <li>
-              <a href="/" className="hover:text-customDarkBlue">
+            <Link href="/" className="hover:text-customDarkBlue">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <a href="./AboutUs" className="hover:text-customDarkBlue">
