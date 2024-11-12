@@ -1,14 +1,22 @@
 "use client";
 
+import * as React from "react"
+import Image from "next/image";
 
 
 const Hero = () => {
 
   return (
     <div className="relative w-full h-screen bg-cover bg-center">
-      <img
+      {/* <img
         src="/images/1bg.webp"
         className="w-full h-screen object-cover"
+      /> */}
+      <Image 
+      src="/images/1bg.webp"
+      alt="Background"
+      layout="fill"
+      objectFit="cover"
       />
       <div className="absolute top-[5vh] flex flex-col justify-center items-center w-full h-full text-white">
         <div className="font-rafeny text-5xl font-semibold text-center">

@@ -2,13 +2,14 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const Testi = () => {
   return (
     <div className="flex items-center justify-center p-5 mt-10 mb-10">
       {/* ini fungsi untuk bagian Dekstop */}
       <div className="hidden md:flex items-center justify-between w-full">
-        <div className="mr-5 md:w-1/2">
+        <div className="mr-2 ml-8 md:w-1/2">
           <h5 className="text-3xl font-bold mb-4 font-rafeny text-customPink">
             Why Our Client Choose Minha Nails
           </h5>
@@ -24,10 +25,13 @@ const Testi = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-1/2">
-          <img
-            src="/images/3testimonial.webp"
-            className="rounded-md shadow-md"
+        <div className="relative mr-10">
+          <Image
+            src="/images/3testimonial_11zon.webp"
+            alt="Deskripsi Gambar"
+            width={500}
+            height={300}
+            className="rounded-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
           />
         </div>
       </div>
@@ -35,9 +39,16 @@ const Testi = () => {
       {/* ini untuk bagian Mobilenya */}
       <div className="relative w-full md:hidden">
         {/* ini buat gambarnya ngeblur */}
-        <img
+        {/* <img
           src="/images/3testimonial_11zon.webp"
           className="w-full h-auto rounded-md shadow-md filter blur-sm transition-all duration-200"
+        /> */}
+        <Image
+          src="/images/3testimonial_11zon.webp"
+          alt="Deskripsi Gambar"
+          width={500}
+          height={300}
+          className="rounded-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h5 className="text-3xl font-bold mb-4 font-rafeny">

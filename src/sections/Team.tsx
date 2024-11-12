@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const Team = () => {
   return (
@@ -11,7 +12,14 @@ const Team = () => {
         <h1 className="font-rafeny text-center text-5xl pt-10 pb-5 text-customPink">
           Meet The Team
         </h1>
-        <img src="/images/4team.webp" className="rounded-md w-1/2 mx-auto" />
+        {/* <img src="/images/4team.webp" className="rounded-md w-1/2 mx-auto" /> */}
+        <Image
+          src="/images/4team.webp"
+          alt="Team Page"
+          width={500}
+          height={300}
+          className="h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
+        />
         <h2 className="font-helvetica pb-12 italic text-center mx-auto w-[50%]">
           Setiap anggota memiliki peran unik, bekerja bersama-sama untuk
           menciptakan pengalaman yang luar biasa.
@@ -24,9 +32,12 @@ const Team = () => {
       {/* yang ini untuk bagian mobile nya */}
       <div className="relative w-full md:hidden">
         {/* aku buatin ini untuk ngeblur nya biar sama kayak yang lain */}
-        <img
+        <Image
           src="/images/4team.webp"
-          className="w-full h-auto rounded-md shadow-md filter blur-sm transition-all duration-200"
+          alt="Team Page"
+          width={500}
+          height={300}
+          className="h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h1 className="font-rafeny text-4xl font-bold mb-4">Meet The Team</h1>
