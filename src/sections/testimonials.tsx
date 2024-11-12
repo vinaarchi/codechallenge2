@@ -36,7 +36,7 @@ const Testi = () => {
       <div className="relative w-full md:hidden">
         {/* ini buat gambarnya ngeblur */}
         <img
-          src="/images/3testimonial.webp"
+          src="/images/3testimonial_11zon.webp"
           className="w-full h-auto rounded-md shadow-md filter blur-sm transition-all duration-200"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">

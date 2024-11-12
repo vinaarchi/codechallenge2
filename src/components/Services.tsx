@@ -52,6 +52,7 @@ const Services: React.FC = () => {
         <Button
           className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125"
           onClick={handleClick}
+          // style={{background}}
         >
           Book Appointment
         </Button>

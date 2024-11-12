@@ -6,7 +6,7 @@ const About = () => (
     {/* Gambar dan Overlay untuk Mobile */}
     <div className="relative w-full md:w-1/2 h-auto rounded-md shadow-md">
       <img
-        src="/images/2aboutus.webp"
+        src="/images/2aboutus_11zon.webp"
         className="rounded-md shadow-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
       />
       {/* Teks untuk Mobile */}
