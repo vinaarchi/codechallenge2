@@ -10,6 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 const Testi = () => {
   return (
@@ -30,22 +31,52 @@ const Testi = () => {
         <Carousel className="p-5">
           <CarouselContent className="flex gap-0">
             <CarouselItem className="flex-none">
-              <img src="/images/testi/3.webp" className="w-36 " />
+              <Image
+                src="/images/testi/3.webp"
+                alt="testi3"
+                width={150}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/4.webp" className="w-36" />
+              <Image
+                src="/images/testi/4.webp"
+                alt="testi4"
+                width={163}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/5.webp" className="w-36" />
+              <Image
+                src="/images/testi/5.webp"
+                alt="testi5"
+                width={170}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/6.webp" className="w-36" />
+              <Image
+                src="/images/testi/6.webp"
+                alt="testi6"
+                width={146}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/7.webp" className="w-36" />
+              <Image
+                src="/images/testi/7.webp"
+                alt="testi7"
+                width={188}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/8.webp" className="w-36" />
+              <Image
+                src="/images/testi/8.webp"
+                alt="testi8"
+                width={180}
+                height={60}
+              />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
@@ -57,10 +88,20 @@ const Testi = () => {
         <Carousel className="p-5 pb-8">
           <CarouselContent className="flex gap-0">
             <CarouselItem className="flex-none">
-              <img src="/images/testi/1.webp" className="w-36 " />
+              <Image
+                src="/images/testi/1.webp"
+                alt="testi1"
+                width={250}
+                height={60}
+              />
             </CarouselItem>
             <CarouselItem className="flex-none">
-              <img src="/images/testi/2.webp" className="w-36" />
+              <Image
+                src="/images/testi/2.webp"
+                alt="testi2"
+                width={203}
+                height={60}
+              />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
