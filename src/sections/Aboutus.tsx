@@ -1,14 +1,21 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const About = () => (
   <div className="flex flex-col md:flex-row items-center justify-center p-5 mt-10 mb-10">
     {/* Gambar dan Overlay untuk Mobile */}
     <div className="relative w-full md:w-1/2 h-auto rounded-md shadow-md">
-      <img
-        src="/images/2aboutus_11zon.webp"
-        className="rounded-md shadow-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
+      <Image
+      src="/images/2aboutus_11zon.webp"
+      alt="Deskripsi Gambar"
+      width={500}
+      height={300}
+      className="rounded-md shadow-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
       />
+
+      
+
       {/* Teks untuk Mobile */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white md:hidden">
         <h3 className="font-rafeny text-4xl font-bold">About Us</h3>

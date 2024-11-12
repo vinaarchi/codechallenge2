@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdCloseCircle } from "react-icons/io";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   //buat state toggle menu
@@ -21,7 +22,14 @@ const Navbar = () => {
     <nav className="shadow-md z-10 relative w-full py-3">
       <div className="flex justify-evenly items-center space-x-60">
         <div className="flex items-center">
-          <img src="/logo.png" className="relative h-14 md:h-20 w-14 md:w-14" />
+          {/* <img src="/logo.png" className="relative h-14 md:h-20 w-14 md:w-14" /> */}
+        <Image 
+        src="/logo.png"
+        alt="Logo"
+        width={100}
+        height={50}
+        className="relative"
+        />
         </div>
 
         {/* icon ini bakalan muncul hanya di layar kecil */}
