@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className=" flex flex-col justify-center items-center p-5 mt-10 mb-10">
+    <div className=" flex flex-col justify-center items-center m-5">
       {/* ini untuk bagian desktopnya */}
       <div className="hidden md:flex flex-col items-center justify-center w-full">
         <h1 className="font-rafeny text-center text-5xl pt-10 pb-5 text-customPink">
@@ -20,13 +20,15 @@ const Team = () => {
           height={300}
           className="h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
         />
-        <h2 className="font-helvetica pb-12 italic text-center mx-auto w-[50%]">
+        <h2 className="font-helvetica p-5 italic text-center mx-auto w-[50%]">
           Setiap anggota memiliki peran unik, bekerja bersama-sama untuk
           menciptakan pengalaman yang luar biasa.
         </h2>
-        <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
-          See the Team
-        </Button>
+        <a href="./OurTeam">
+          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+            See the Team
+          </Button>
+        </a>
       </div>
 
       {/* yang ini untuk bagian mobile nya */}
@@ -41,9 +43,11 @@ const Team = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h1 className="font-rafeny text-4xl font-bold mb-4">Meet The Team</h1>
-          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
-            See the Team
-          </Button>
+          <a href="./OurTeam">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+              See the Team
+            </Button>
+          </a>
         </div>
       </div>
     </div>

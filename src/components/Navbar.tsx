@@ -23,13 +23,13 @@ const Navbar = () => {
       <div className="flex justify-evenly items-center space-x-60">
         <div className="flex items-center">
           {/* <img src="/logo.png" className="relative h-14 md:h-20 w-14 md:w-14" /> */}
-        <Image 
-        src="/logo.png"
-        alt="Logo"
-        width={100}
-        height={50}
-        className="relative"
-        />
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={100}
+            height={50}
+            className="relative"
+          />
         </div>
 
         {/* icon ini bakalan muncul hanya di layar kecil */}
@@ -53,12 +53,15 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="./Products" className="hover:text-customDarkBlue">
+              <a
+                href="./Products&Program"
+                className="hover:text-customDarkBlue"
+              >
                 Products & Programs
               </a>
             </li>
             <li>
-              <a href="./Testimonial" className="hover:text-customDarkBlue">
+            <a href="./Testimonial" className="hover:text-customDarkBlue">
                 Testimonial
               </a>
             </li>
@@ -89,7 +92,7 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col items-center justify-center space-y-8 p-8 font-rafeny text-black">
             <li>
-            <Link href="/" className="hover:text-customDarkBlue">
+              <Link href="/" className="hover:text-customDarkBlue">
                 Home
               </Link>
             </li>
@@ -99,7 +102,10 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="./Products" className="hover:text-customDarkBlue">
+              <a
+                href="./Products&Program"
+                className="hover:text-customDarkBlue"
+              >
                 Products & Programs
               </a>
             </li>

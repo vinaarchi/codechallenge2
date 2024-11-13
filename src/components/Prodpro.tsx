@@ -15,9 +15,11 @@ const Prodpro: React.FC = () => {
         </h2>
         <Programs />
         <div className="flex justify-center items-center pt-2">
-          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
-            See More
-          </Button>
+          <a href="./Products&Program">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+              See More
+            </Button>
+          </a>
         </div>
       </div>
       {/* kalo ini untuk bagian productsnya */}
@@ -27,9 +29,11 @@ const Prodpro: React.FC = () => {
         </h2>
         <Products />
         <div className="flex justify-center items-center pt-2">
-          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
-            See More
-          </Button>
+          <a href="./Products&Program">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+              See More
+            </Button>
+          </a>
         </div>
       </div>
     </div>
