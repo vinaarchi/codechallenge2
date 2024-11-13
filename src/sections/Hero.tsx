@@ -8,10 +8,7 @@ const Hero = () => {
 
   return (
     <div className="relative w-full h-screen bg-cover bg-center">
-      {/* <img
-        src="/images/1bg.webp"
-        className="w-full h-screen object-cover"
-      /> */}
+
       <Image 
       src="/images/1bg.webp"
       alt="Background"
