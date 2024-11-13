@@ -17,6 +17,7 @@ const Hero = () => {
       alt="Background"
       layout="fill"
       objectFit="cover"
+      priority={true}
       />
       <div className="absolute top-[5vh] flex flex-col justify-center items-center w-full h-full text-white">
         <div className="font-rafeny text-5xl font-semibold text-center">
