@@ -15,10 +15,8 @@ const Hero = () => {
       <Image 
       src="/images/1bg.webp"
       alt="Background"
-      width={200}
-      height={100}
-      // layout="fill"
-      // objectFit="cover"
+      layout="fill"
+      objectFit="cover"
       />
       <div className="absolute top-[5vh] flex flex-col justify-center items-center w-full h-full text-white">
         <div className="font-rafeny text-5xl font-semibold text-center">
