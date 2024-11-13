@@ -1,14 +1,19 @@
 import React from "react";
-import Link
- from "next/link";
+import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="flex p-5" style={{ backgroundColor: "rgb(225, 219, 219)" }}>
       <div className="flex flex-col p-4 w-1/4 justify-center">
         <div className="flex flex-row p-5 justify-start items-center">
-          <img src="/logo.png" className="w-28 h-auto hidden md:block" />
-
+          
+          <Image 
+          src="/logo.png"
+          alt="logo"
+          width={500}
+          height={300}
+          />
           <ul className="flex flex-col items-start space-y-2 mt-4 ml-8 md:ml-20">
             <li>
             <Link href="/" className="hover:text-customDarkBlue">

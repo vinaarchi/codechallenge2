@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 
 const products = [
     { id: 1, name: "MPON-001", price: "65.000", image: "/images/WB-1E.webp" },
@@ -23,10 +24,18 @@ const Products: React.FC = () => {
             {products.map(product => (
             <div key={product.id} className="m-1 text-center w-60" >
                 <div className="w-64 h-64 overflow-hidden m-1">
-                        <img 
+                        {/* <img 
                             src={product.image}  
                             className="w-full h-full p-2 object-cover"
+                        /> */}
+                        <Image 
+                        src={product.image}
+                        alt="Product Image"
+                        width={500}
+                        height={400}
+                        className="p-2"
                         />
+
                     </div>
                 <h3 className="text-lg font-semibold text-center text-customDarkBlue">{product.name}</h3>
                 <p className="text-black">{product.price}</p>
