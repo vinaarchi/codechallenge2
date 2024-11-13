@@ -3,7 +3,7 @@
 import * as React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const AboutUs = () => {
   return (

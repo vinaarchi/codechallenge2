@@ -2,11 +2,11 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Team = () => {
   return (
-    <div className=" flex flex-col justify-center items-center m-5">
+    <div className=" flex flex-col justify-center items-center m-9">
       {/* ini untuk bagian desktopnya */}
       <div className="hidden md:flex flex-col items-center justify-center w-full">
         <h1 className="font-rafeny text-center text-5xl pt-10 pb-5 text-customPink">

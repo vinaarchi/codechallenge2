@@ -1,15 +1,15 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const About = () => {
   return (
     <div className="flex p-4" style={{ backgroundColor: "rgb(237, 218, 212)" }}>
-      <div className="flex justify-center items-center m-10">
+      <div className="flex justify-center items-center m-5">
         {/* Container Flex untuk Desktop dan Mobile */}
         <div className="flex flex-col md:flex-row items-center justify-between w-full relative">
           {/* Gambar */}
-          <div className="w-full md:w-1/2 mr-2 ml-8">
+          <div className="w-full md:w-1/2 mr-8 ml-8">
             <Image
               src="/images/2aboutus_11zon.webp"
               alt="About Us"

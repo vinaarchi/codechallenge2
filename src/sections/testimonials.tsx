@@ -2,12 +2,12 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Testi = () => {
   return (
     <div className="flex p-4" style={{ backgroundColor: "rgb(237, 218, 212)" }}>
-      <div className="flex justify-center items-center m-10">
+      <div className="flex justify-center items-center m-5">
         {/* ini fungsi untuk bagian Dekstop */}
         <div className="hidden md:flex items-center justify-between w-full">
           <div className="mr-2 ml-8 md:w-1/2">
@@ -32,7 +32,7 @@ const Testi = () => {
               alt="Deskripsi Gambar"
               width={500}
               height={300}
-              className="rounded-md h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
+              className="h-auto filter md:filter-none blur-sm md:blur-0 transition-all duration-200"
             />
           </div>
         </div>

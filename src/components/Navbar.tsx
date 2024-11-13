@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdCloseCircle } from "react-icons/io";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Navbar = () => {
   //buat state toggle menu
@@ -27,7 +27,7 @@ const Navbar = () => {
             src="/logo.png"
             alt="Logo"
             width={100}
-            height={50}
+            height={100}
             className="relative"
           />
         </div>

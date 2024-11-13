@@ -1,16 +1,16 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Footer = () => {
   return (
     <div
-      className="flex justify-center items-center text-center p-14 space-x-40"
+      className="flex flex-col md:flex-row justify-center items-center text-center p-14 space-x-40"
       style={{ backgroundColor: "rgb(237, 218, 212)" }}
     >
       <div className="flex flex-col justify-center">
         <div className="flex flex-row justify-start items-center">
-          <Image src="/logo.png" alt="logo" width={100} height={100} />
+          <Image src="/logo.png" alt="logo" width={200} height={200} />
           <div className="text-center pl-8">
             <ul className="space-y-3">
               <li>
