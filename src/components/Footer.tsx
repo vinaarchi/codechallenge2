@@ -5,7 +5,7 @@ import Image from "next/legacy/image";
 const Footer = () => {
   return (
     <div
-      className="flex flex-col md:flex-row justify-center items-center text-center p-14 space-x-40"
+      className="flex flex-col md:flex-row justify-center items-center text-center p-10 space-x-40"
       style={{ backgroundColor: "rgb(237, 218, 212)" }}
     >
       <div className="flex flex-col justify-center">
@@ -24,11 +24,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="./Products&Program"
-                  className="hover:text-customDarkBlue"
-                >
-                  Products & Programs
+                <a href="./Products" className="hover:text-customDarkBlue">
+                  Products
                 </a>
               </li>
             </ul>

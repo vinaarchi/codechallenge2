@@ -25,7 +25,7 @@ const Team = () => {
           menciptakan pengalaman yang luar biasa.
         </h2>
         <a href="./OurTeam">
-          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+          <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
             See the Team
           </Button>
         </a>
@@ -44,7 +44,7 @@ const Team = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h1 className="font-rafeny text-4xl font-bold mb-4">Meet The Team</h1>
           <a href="./OurTeam">
-            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+            <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
               See the Team
             </Button>
           </a>

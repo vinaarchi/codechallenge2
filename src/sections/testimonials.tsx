@@ -20,7 +20,7 @@ const Testi = () => {
             </h2>
             <div className="pt-5">
               <a href="./Testimonial">
-                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                   See More
                 </Button>
               </a>
@@ -54,7 +54,7 @@ const Testi = () => {
 
             <div className="pt-5">
               <a href="./Testimonial">
-                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                   See More
                 </Button>
               </a>

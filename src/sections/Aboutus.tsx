@@ -23,7 +23,7 @@ const About = () => {
               <h3 className="font-rafeny text-3xl font-bold">About Us</h3>
               <div className="pt-5">
                 <a href="./AboutUs">
-                  <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+                  <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                     Read More
                   </Button>
                 </a>
@@ -42,7 +42,7 @@ const About = () => {
             </h1>
             <div className="pt-1 font-helvetica">
               <a href="./AboutUs">
-                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125">
+                <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                   Read More
                 </Button>
               </a>

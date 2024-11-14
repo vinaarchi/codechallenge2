@@ -54,10 +54,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="./Products&Program"
+                href="./Products"
                 className="hover:text-customDarkBlue"
               >
-                Products & Programs
+                Products 
               </a>
             </li>
             <li>
@@ -103,10 +103,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="./Products&Program"
+                href="./Products"
                 className="hover:text-customDarkBlue"
               >
-                Products & Programs
+                Products 
               </a>
             </li>
             <li>

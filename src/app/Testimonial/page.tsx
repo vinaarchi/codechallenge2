@@ -34,48 +34,48 @@ const Testi = () => {
               <Image
                 src="/images/testi/3.webp"
                 alt="testi3"
-                width={150}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/4.webp"
                 alt="testi4"
-                width={163}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/5.webp"
                 alt="testi5"
-                width={170}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/6.webp"
                 alt="testi6"
-                width={146}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/7.webp"
                 alt="testi7"
-                width={188}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/8.webp"
                 alt="testi8"
-                width={180}
-                height={60}
+                width={200}
+                height={340}
               />
             </CarouselItem>
           </CarouselContent>
@@ -92,15 +92,15 @@ const Testi = () => {
                 src="/images/testi/1.webp"
                 alt="testi1"
                 width={250}
-                height={60}
+                height={300}
               />
             </CarouselItem>
             <CarouselItem className="flex-none">
               <Image
                 src="/images/testi/2.webp"
                 alt="testi2"
-                width={203}
-                height={60}
+                width={250}
+                height={300}
               />
             </CarouselItem>
           </CarouselContent>
