@@ -16,7 +16,6 @@ export default function Products() {
         </p>
       </div>
       <Product />
-
       <Footer />
     </div>
   );
