@@ -37,8 +37,7 @@
 
 @font-face {
   font-family: "Rafeny";
-  src: url("/fonts/Rafeny.woff") format("woff"),
-    url("/fonts/Rafeny.ttf") format("truetype");
+  src: url("/fonts/Rafeny.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
