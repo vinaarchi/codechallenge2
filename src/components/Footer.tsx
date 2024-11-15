@@ -19,9 +19,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="./aboutus" className="hover:text-customDarkBlue">
+                <Link href="./aboutus" className="hover:text-customDarkBlue">
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="./products" className="hover:text-customDarkBlue">
@@ -33,9 +33,12 @@ const Footer = () => {
           <div className="text-center pl-16">
             <ul className="space-y-3">
               <li>
-                <a href="./testimonial" className="hover:text-customDarkBlue">
+                <Link
+                  href="./testimonial"
+                  className="hover:text-customDarkBlue"
+                >
                   Testimonial
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="./ourteam" className="hover:text-customDarkBlue">
