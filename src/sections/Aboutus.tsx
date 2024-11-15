@@ -23,11 +23,11 @@ const About = () => {
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-full md:hidden">
               <h3 className="font-rafeny text-3xl font-bold">About Us</h3>
               <div className="pt-5">
-                <Link href="./aboutus">
+                <a href="./aboutus">
                   <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
-                    Read More
+                    Learn More About Us
                   </Button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -42,11 +42,11 @@ const About = () => {
               desain inovatif, dan komitmen terhadap kualitas
             </h1>
             <div className="pt-1 font-helvetica">
-              <Link href="./aboutus">
+              <a href="./aboutus">
                 <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
-                  Read More
+                  Discover Our Story
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
