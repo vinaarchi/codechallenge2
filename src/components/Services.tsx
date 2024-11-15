@@ -30,10 +30,10 @@ const Services: React.FC = () => {
         <h1 className="text-3xl font-rafeny font-bold mb-4 text-customPink">
           Our Services
         </h1>
-        <h4 className="text-lg italic font-helvetica">
+        <p className="text-lg italic font-helvetica">
           Get Your Nails Done for Great Mood. Simple pleasures can make your
           week, not just day
-        </h4>
+        </p>
       </div>
       <div className="font-helvetica max-w-2xl mx-auto p-2 ">
         <div className="space-y-4 mt-6">
