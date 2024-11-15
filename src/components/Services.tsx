@@ -27,7 +27,7 @@ const Services: React.FC = () => {
   return (
     <div className="flex flex-col items-center m-8 ">
       <div className="text-center font-serif">
-        <h1 className="text-3xl font-rafeny font-bold mb-4 text-customPink">
+        <h1 className="text-3xl font-rafeny font-bold mb-4 text-customDarkBlue">
           Our Services
         </h1>
         <p className="text-lg italic font-helvetica">
