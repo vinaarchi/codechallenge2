@@ -21,7 +21,7 @@ const Testi = () => {
             <div className="pt-5">
               <a href="./Testimonial">
                 <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
-                  See More
+                  Explore What Clients Say About Us
                 </Button>
               </a>
             </div>
@@ -55,7 +55,7 @@ const Testi = () => {
             <div className="pt-5">
               <a href="./Testimonial">
                 <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
-                  See More
+                  View Our Testimonials
                 </Button>
               </a>
             </div>
