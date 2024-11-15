@@ -21,7 +21,7 @@ const About = () => {
 
             {/* Teks dan Tombol di tengah gambar untuk Mobile */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-full md:hidden">
-              <h3 className="font-rafeny text-3xl font-bold">About Us</h3>
+              <p className="font-rafeny text-3xl font-bold">About Us</p>
               <div className="pt-5">
                 <Link href="./aboutus">
                   <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
@@ -34,9 +34,9 @@ const About = () => {
 
           {/* Teks untuk Desktop */}
           <div className="w-full p-6 text-center md:text-left hidden md:block">
-            <h3 className="font-rafeny text-4xl pb-2 font-bold text-customPink">
+            <p className="font-rafeny text-4xl pb-2 font-bold text-customPink">
               About Us
-            </h3>
+            </p>
             <h1 className="font-helvetica text-lg md:text-xl mb-4">
               Perjalanan kami telah ditandai dengan banyak pelanggan yang puas,
               desain inovatif, dan komitmen terhadap kualitas
