@@ -20,7 +20,7 @@ interface User {
   };
 }
 
-const OurTeam = () => {
+const ourteam = () => {
   const [team, setTeam] = React.useState<User[]>([]);
 
   React.useEffect(() => {
@@ -71,4 +71,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default ourteam;

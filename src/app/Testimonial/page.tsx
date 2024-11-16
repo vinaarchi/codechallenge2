@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/legacy/image";
 
-const Testi = () => {
+const testimonial = () => {
   return (
     <div>
       <Navbar />
@@ -113,4 +113,4 @@ const Testi = () => {
   );
 };
 
-export default Testi;
+export default testimonial;
