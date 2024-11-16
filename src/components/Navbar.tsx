@@ -48,20 +48,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="./aboutus" className="hover:text-customDarkBlue">
+              <a href="./Aboutus" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a
-                href="./products"
-                className="hover:text-customDarkBlue"
-              >
-                Products 
+              <a href="./products" className="hover:text-customDarkBlue">
+                Products
               </a>
             </li>
             <li>
-            <a href="./testimonial" className="hover:text-customDarkBlue">
+              <a href="./testimonial" className="hover:text-customDarkBlue">
                 Testimonial
               </a>
             </li>
@@ -97,16 +94,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="./aboutus" className="hover:text-customDarkBlue">
+              <a href="./Aboutus" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a
-                href="./products"
-                className="hover:text-customDarkBlue"
-              >
-                Products 
+              <a href="./products" className="hover:text-customDarkBlue">
+                Products
               </a>
             </li>
             <li>

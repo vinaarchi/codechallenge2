@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/legacy/image";
 
-const aboutus = () => {
+const Aboutus = () => {
   return (
     <div>
       <Navbar />
@@ -77,4 +77,4 @@ const aboutus = () => {
   );
 };
 
-export default aboutus;
+export default Aboutus;
