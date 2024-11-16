@@ -48,9 +48,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="./Aboutus" className="hover:text-customDarkBlue">
+              <Link href="./Aboutus" className="hover:text-customDarkBlue">
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a href="./products" className="hover:text-customDarkBlue">
