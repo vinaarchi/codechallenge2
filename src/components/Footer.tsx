@@ -19,12 +19,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="./Aboutus" className="hover:text-customDarkBlue">
+                <Link href="./tentangkami" className="hover:text-customDarkBlue">
                   About
                 </Link>
               </li>
               <li>
-                <a href="./products" className="hover:text-customDarkBlue">
+                <a href="./produkkami" className="hover:text-customDarkBlue">
                   Products
                 </a>
               </li>
@@ -33,20 +33,17 @@ const Footer = () => {
           <div className="text-center pl-16">
             <ul className="space-y-3">
               <li>
-                <Link
-                  href="./testimonial"
-                  className="hover:text-customDarkBlue"
-                >
+                <Link href="./review" className="hover:text-customDarkBlue">
                   Testimonial
                 </Link>
               </li>
               <li>
-                <a href="./Ourteam" className="hover:text-customDarkBlue">
+                <a href="./Timkami" className="hover:text-customDarkBlue">
                   Our Team
                 </a>
               </li>
               <li>
-                <a href="./contactus" className="hover:text-customDarkBlue">
+                <a href="./kontakkami" className="hover:text-customDarkBlue">
                   Contact Us
                 </a>
               </li>

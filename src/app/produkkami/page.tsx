@@ -2,7 +2,7 @@ import Product from "@/views/pages/home";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function products() {
+export default function produkkami() {
   return (
     <div>
       <Navbar />

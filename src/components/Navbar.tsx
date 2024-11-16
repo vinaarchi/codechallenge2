@@ -1,4 +1,4 @@
-"use client";
+
 
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -48,27 +48,27 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="./aboutus" className="hover:text-customDarkBlue">
+              <a href="./tentangkami" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a href="./products" className="hover:text-customDarkBlue">
+              <a href="./produkkami" className="hover:text-customDarkBlue">
                 Products
               </a>
             </li>
             <li>
-              <a href="./testimonial" className="hover:text-customDarkBlue">
+              <a href="./review" className="hover:text-customDarkBlue">
                 Testimonial
               </a>
             </li>
             <li>
-              <a href="./Ourteam" className="hover:text-customDarkBlue">
+              <a href="./Timkami" className="hover:text-customDarkBlue">
                 Our Team
               </a>
             </li>
             <li>
-              <a href="./contactus" className="hover:text-customDarkBlue">
+              <a href="./kontakkami" className="hover:text-customDarkBlue">
                 Contact Us
               </a>
             </li>
@@ -94,27 +94,27 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="./aboutus" className="hover:text-customDarkBlue">
+              <a href="./tentangkami" className="hover:text-customDarkBlue">
                 About
               </a>
             </li>
             <li>
-              <a href="./products" className="hover:text-customDarkBlue">
+              <a href="./produkkami" className="hover:text-customDarkBlue">
                 Products
               </a>
             </li>
             <li>
-              <a href="./testimonial" className="hover:text-customDarkBlue">
+              <a href="./review" className="hover:text-customDarkBlue">
                 Testimonial
               </a>
             </li>
             <li>
-              <a href="./Ourteam" className="hover:text-customDarkBlue">
+              <a href="./Timkami" className="hover:text-customDarkBlue">
                 Our Team
               </a>
             </li>
             <li>
-              <a href="./contactus" className="hover:text-customDarkBlue">
+              <a href="./kontakkami" className="hover:text-customDarkBlue">
                 Contact
               </a>
             </li>

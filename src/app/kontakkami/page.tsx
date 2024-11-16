@@ -9,7 +9,7 @@ import {
   FaShopify,
 } from "react-icons/fa";
 
-const contactus = () => {
+const kontakkami = () => {
   return (
     <div>
       <Navbar />
@@ -83,4 +83,4 @@ const contactus = () => {
   );
 };
 
-export default contactus;
+export default kontakkami;
