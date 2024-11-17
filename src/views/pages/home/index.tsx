@@ -1,5 +1,6 @@
 import contentfulClient from "@/lib/contentfulClient";
 import { TypeProductSkeleton, TypeProductAsset } from "@/types/product.type";
+import Image from "next/image";
 
 const getProducts = async () => {
   try {
@@ -36,12 +37,12 @@ export default async function Product({ isLandingPage = false }: ProductProps) {
               {product.fields.title}
             </p>
             <div className="w-64 h-auto overflow-hidden">
-              <img
+              <Image
                 src={`https:${
                   (product.fields.image as TypeProductAsset)?.fields.file.url
                 }`}
                 alt={product.fields.title}
-                className="w-full h-auto rounded-md" // Tidak perlu margin tambahan jika gap digunakan
+                className="w-full h-auto rounded-md"
               />
             </div>
             <p className="font-helvetica text-customDarkBlue mb-10">
