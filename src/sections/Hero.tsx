@@ -9,8 +9,8 @@ const Hero = () => {
       <Image
         src="/images/1bg.webp"
         alt="Background"
-        layout="fill"
-        objectFit="cover"
+        width={1920}
+        height={1080}
         priority={true}
       />
       <div className="absolute top-[5vh] flex flex-col justify-center items-center w-full h-full text-white">
