@@ -19,7 +19,7 @@ const Testi = () => {
               terkini yang siap memanjakan Anda!
             </p>
             <div className="pt-5">
-              <a href="./Testimonial">
+              <a href="./review">
                 <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                   Explore What Clients Say About Us
                 </Button>
@@ -53,7 +53,7 @@ const Testi = () => {
             </p>
 
             <div className="pt-5">
-              <a href="./Testimonial">
+              <a href="./review">
                 <Button className="bg-customBlueSky text-customDarkBlue transform transition-transform duration-300 hover:scale-125 hover:bg-customBlueSky">
                   View Our Testimonials
                 </Button>

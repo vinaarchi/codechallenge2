@@ -14,24 +14,36 @@ const getProducts = async () => {
   }
 };
 
-export default async function Product() {
+interface ProductProps {
+  isLandingPage?: boolean;
+}
+
+export default async function Product({ isLandingPage = false }: ProductProps) {
   const product = await getProducts();
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 m-2 mb-10 mt-10">
+    <div
+      className={`${
+        isLandingPage
+          ? "flex flex-row items-center overflow-x-auto space-x-8 py-4"
+          : "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3"
+      }`}
+    >
       {product &&
         product.items?.map((product, index) => (
           <div key={index} className="flex flex-col items-center">
             <p className="font-rafeny text-customPink text-2xl">
               {product.fields.title}
             </p>
-            <img
-              src={`https:${
-                (product.fields.image as TypeProductAsset)?.fields.file.url
-              }`}
-              alt={product.fields.title}
-              className="w-full h-auto rounded-md" // Tidak perlu margin tambahan jika gap digunakan
-            />
+            <div className="w-64 h-auto overflow-hidden">
+              <img
+                src={`https:${
+                  (product.fields.image as TypeProductAsset)?.fields.file.url
+                }`}
+                alt={product.fields.title}
+                className="w-full h-auto rounded-md" // Tidak perlu margin tambahan jika gap digunakan
+              />
+            </div>
             <p className="font-helvetica text-customDarkBlue mb-10">
               {" "}
               Rp {product.fields.price}

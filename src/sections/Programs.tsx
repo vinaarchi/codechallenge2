@@ -29,7 +29,7 @@ const Programs: React.FC = () => {
     <div className="flex flex-row items-center overflow-x-auto space-x-8">
       {/* stiap program yang ada, akan dibuatkan elemen div */}
       {programs.map((program) => (
-        <div key={program.id} className="m-1 text-center w-60">
+        <div key={program.id} className="m-2 text-center w-60">
           <div className="w-64 h-64 overflow-hidden">
             <Image
               src={program.image}
